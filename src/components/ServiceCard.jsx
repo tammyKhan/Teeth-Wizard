@@ -1,7 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const ServiceCard = ({ service }) => {
-   const {treatment, description, image, cost} = service;
+   const {treatment, description, image, cost, id} = service;
 
   return (
       
@@ -19,7 +20,9 @@ const ServiceCard = ({ service }) => {
         </h2>
         <p className="text-sm">{description.slice(0, 100)}...</p>
         <div className="card-actions justify-end">
+          <NavLink to={`/details/${id}`}>
           <div className="btn badge badge-outline">Checkout More</div>
+          </NavLink>
         </div>
       </div>
     </div>
