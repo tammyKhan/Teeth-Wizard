@@ -1,0 +1,50 @@
+[
+  {
+    "reviewId": 1,
+    "name": "John Doe",
+    "userImg": "https://example.com/images/john-doe.jpg",
+    "review": "Excellent service! The staff was friendly and the treatment was quick and painless. Highly recommend!"
+  },
+  {
+    "reviewId": 2,
+    "name": "Jane Smith",
+    "userImg": "https://example.com/images/jane-smith.jpg",
+    "review": "I had a great experience. The dentist explained everything clearly, and the procedure was very comfortable. Will be back for future visits."
+  },
+  {
+    "reviewId": 3,
+    "name": "Emily Brown",
+    "userImg": "https://example.com/images/emily-brown.jpg",
+    "review": "Amazing team! They made me feel at ease and took excellent care of me. The office is clean and welcoming."
+  },
+  {
+    "reviewId": 4,
+    "name": "Michael Green",
+    "userImg": "https://example.com/images/michael-green.jpg",
+    "review": "Professional and friendly staff. My cleaning was thorough and quick. I felt well taken care of the entire time."
+  },
+  {
+    "reviewId": 5,
+    "name": "Sara Lee",
+    "userImg": "https://example.com/images/sara-lee.jpg",
+    "review": "I was very nervous about my dental procedure, but the team was so reassuring and kind. I’m so happy with the results!"
+  },
+  {
+    "reviewId": 6,
+    "name": "David Williams",
+    "userImg": "https://example.com/images/david-williams.jpg",
+    "review": "Wonderful experience! I had a root canal, and the dentist was gentle and explained every step. I felt comfortable and pain-free."
+  },
+  {
+    "reviewId": 7,
+    "name": "Olivia Martinez",
+    "userImg": "https://example.com/images/olivia-martinez.jpg",
+    "review": "I’m really happy with my teeth whitening results. The staff made me feel comfortable, and the procedure was quick and easy."
+  },
+  {
+    "reviewId": 8,
+    "name": "James Wilson",
+    "userImg": "https://example.com/images/james-wilson.jpg",
+    "review": "Great experience from start to finish! The dentist explained everything clearly, and I’m happy with my treatment. Highly recommend this practice."
+  }
+]
