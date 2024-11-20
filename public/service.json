@@ -3,56 +3,56 @@
     "id": 1,
     "treatment": "Teeth Cleaning",
     "description": "Professional cleaning to remove plaque, tartar, and stains that brushing alone can't tackle. This treatment helps prevent cavities and keeps your teeth and gums healthy.",
-    "image": "https://example.com/images/teeth-cleaning.jpg",
+    "image": "https://i.ibb.co.com/bXGzWPK/dentists-treat-patients-teeth-1.jpg",
     "cost": 50
   },
   {
     "id": 2,
     "treatment": "Dental Checkup",
     "description": "A detailed oral examination to identify potential dental problems early. Regular checkups ensure the long-term health of your teeth and gums, saving you from future complications.",
-    "image": "https://example.com/images/dental-checkup.jpg",
+    "image": "https://i.ibb.co.com/9NZTp2b/doctor-with-magnifying-glass-white-background.jpg",
     "cost": 30
   },
   {
     "id": 3,
     "treatment": "Teeth Whitening",
     "description": "Enhance your smile with professional teeth whitening that removes deep stains. This safe procedure brightens your teeth, boosting your confidence and appearance.",
-    "image": "https://example.com/images/teeth-whitening.jpg",
+    "image": "https://i.ibb.co.com/wgBDrY7/dentists-treat-patients-teeth-2.jpg",
     "cost": 120
   },
   {
     "id": 4,
     "treatment": "Cavity Filling",
     "description": "Repair cavities with high-quality fillings that restore the natural structure of your tooth. This treatment prevents further decay and strengthens damaged teeth.",
-    "image": "https://example.com/images/cavity-filling.jpg",
+    "image": "https://i.ibb.co.com/9NZTp2b/doctor-with-magnifying-glass-white-background.jpg",
     "cost": 80
   },
   {
     "id": 5,
     "treatment": "Root Canal Therapy",
     "description": "A gentle and effective way to treat infected or decayed teeth. Root canal therapy saves your natural tooth and eliminates pain caused by deep infections.",
-    "image": "https://example.com/images/root-canal.jpg",
+    "image": "https://i.ibb.co.com/wgBDrY7/dentists-treat-patients-teeth-2.jpg",
     "cost": 200
   },
   {
     "id": 6,
     "treatment": "Dental Implants",
     "description": "A permanent solution for missing teeth, dental implants offer a natural look and feel. They restore functionality and improve the overall aesthetics of your smile.",
-    "image": "https://example.com/images/dental-implants.jpg",
+    "image": "https://i.ibb.co.com/bXGzWPK/dentists-treat-patients-teeth-1.jpg",
     "cost": 1500
   },
   {
     "id": 7,
     "treatment": "Orthodontics (Braces)",
     "description": "Correct crooked or misaligned teeth with customized braces. This treatment not only improves appearance but also enhances oral health and bite functionality.",
-    "image": "https://example.com/images/braces.jpg",
+    "image": "https://i.ibb.co.com/wgBDrY7/dentists-treat-patients-teeth-2.jpg",
     "cost": 2500
   },
   {
     "id": 8,
     "treatment": "Wisdom Tooth Extraction",
     "description": "Safe and painless removal of problematic wisdom teeth to avoid pain and overcrowding. This procedure prevents long-term dental issues and maintains oral health.",
-    "image": "https://example.com/images/wisdom-tooth-extraction.jpg",
+    "image": "https://i.ibb.co.com/9NZTp2b/doctor-with-magnifying-glass-white-background.jpg",
     "cost": 300
   }
 ]
