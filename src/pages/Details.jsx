@@ -25,7 +25,7 @@ const Details = () => {
           className="btn bg-white text-black font-bold">Book Appointment</button>
         </div>
       </div>
-      <Modal></Modal>
+      <Modal treatment={treatment}></Modal>
     </div>
   );
 };

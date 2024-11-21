@@ -1,10 +1,13 @@
 import React, { useContext, useState } from "react";
 import { authContext } from "./AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { handleLogin, handleGoogleLogin } = useContext(authContext);
   const [error, setError] = useState("");
+
+  const location = useLocation()
+  const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,11 +16,20 @@ const Login = () => {
     const password = e.target.password.value;
 
     handleLogin(email, password)
-      .then((res) => {})
+      .then((res) => {
+        navigate(location.state.from)
+      })
       .catch((err) => {
         setError(err.message);
       });
   };
+
+ const googleLoginHandler = () =>{
+  handleGoogleLogin()
+  .then(res => {
+    navigate(location.state.from)
+  })
+ }
 
   return (
     <div className="my-12 ">
@@ -47,7 +59,7 @@ const Login = () => {
           </div>
 
           <div className="form-control mt-6">
-            <button onClick={handleGoogleLogin} className="btn ">
+            <button onClick={googleLoginHandler} className="btn ">
               Login With Google
             </button>
           </div>
@@ -66,11 +78,7 @@ const Login = () => {
 
 export default Login;
 
-{
-  /* <div className='flex gap-3 my-12'>
-        <h2 className='font-bold'></h2>
-        <Link to="/register" className='font-bold text-red-600'></Link>
-      </div> */
-}
+
+
 
 // <button onClick={handleGoogleLogin} className='btn btn-neutral'>google login</button>
